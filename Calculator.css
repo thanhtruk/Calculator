@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* Đưa phần tử vào trung tâm theo chiều ngang */
+    align-items: center;
+    /* Đưa phần tử vào trung tâm theo chiều dọc */
+}
+
+#calculatorFrame {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px;
+    width: auto;
+    height: auto;
+    border: 4px solid #8785A2;
+    background-color: #F6F6F6;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #8785A2;
+}
+
+#result {
+    width: 220px;
+    padding: 10px;
+    margin: 5px;
+    border: 4px solid #8785A2;
+    font-size: 18px;
+    text-align: right;
+    background-color: #F6F6F6;
+    color: #8785A2;
+}
+
+.number {
+    background-color: #FFE2E2;
+    color: #8785A2;
+}
+
+.operator {
+    background-color: #FFC7C7;
+    color: #8785A2;
+}
+
+#equal {
+    background-color: #FFC7C7;
+    color: #8785A2;
+}
+
+#clear {
+    background-color: #8785A2;
+    color: white;
+    border: none;
+}
